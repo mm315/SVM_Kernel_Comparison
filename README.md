@@ -1,13 +1,20 @@
-# SVM_Kernel_Comparison
+# SVM Kernel Comparison
 
 ## Overview
-This project compares SVM kernels (Linear, RBF, Polynomial, Sigmoid) for classifying breast cancer tumors as malignant/benign using the Breast Cancer Wisconsin dataset.
+This project compares SVM kernels (Linear, RBF, Polynomial, Sigmoid) for classifying breast cancer tumors as malignant/benign.
 
-## Contents
-- `code/`: Jupyter notebook and dependencies.
-- `tutorial/`: PDF explaining methodology, results, and analysis.
+## How to Use
+1. **Download .ipynb and open in any notebook editor (Google Collab/Jupyter Notebook)**:  
 
-## How to Run
-1. Install dependencies:
-   ```bash
-   pip install -r code/requirements.txt
+2. **Run the notebook**:  
+   - Click "Runtime" → "Run all" to execute all cells.  
+   - Results (accuracy, plots) will appear inline.
+
+## Requirements
+- Python 3.x  
+- Libraries: `scikit-learn`, `pandas`, `matplotlib`, `numpy`  
+- *No local setup needed—runs entirely in Colab!*
+
+## Results
+- Best performing kernel: **RBF (98.25% accuracy)**  
+- Detailed analysis in [SVM_Kernel_Comparison.pdf](SVM_Kernel_Comparison.pdf).
